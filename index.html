@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Citações e Códigos em HTML</title>
+</head>
+<body>
+    <h1>Anotações de Estudo: Citações e Códigos em HTML</h1>
+
+    <h2>1. Introdução</h2>
+    <p>Esta aula aborda tags HTML utilizadas para lidar com citações e códigos de programação. Elas trazem semântica e estrutura ao conteúdo, além de melhorar a acessibilidade e organização.</p>
+
+    <h2>2. Tags para Citações</h2>
+
+    <h3>&lt;blockquote&gt; - Citação em Bloco</h3>
+    <p>Usado para citações longas retiradas de outras fontes. Pode ter o atributo <code>cite</code> com a URL da fonte.</p>
+    <p>No livro "1984", George Orwell escreveu:</p>
+    <blockquote cite="https://www.exemplo.com/1984">
+        <p>O Grande Irmão está te observando.</p>
+        <p>Guerra é Paz. Liberdade é Escravidão. Ignorância é Força.</p>
+    </blockquote>
+
+    <h3>&lt;q&gt; - Citação Curta Inline</h3>
+    <p>Para citações curtas dentro do texto.</p>
+    <p>Sócrates disse: <q cite="https://www.exemplo.com/socrates">Só sei que nada sei</q>.</p>
+
+    <h3>&lt;cite&gt; - Título da Fonte</h3>
+    <p>Usado para indicar o título de uma obra ou fonte.</p>
+    <p>Como dito em <cite>O Pequeno Príncipe</cite>, "Tu te tornas eternamente responsável por aquilo que cativas".</p>
+
+    <h2>3. Tags para Códigos de Programação</h2>
+
+    <h3>&lt;code&gt; - Código Inline</h3>
+    <p>Para pequenos trechos de código.</p>
+    <p>Use a função <code>console.log()</code> para imprimir no console.</p>
+
+    <h3>&lt;pre&gt;&lt;code&gt; - Bloco de Código</h3>
+    <p>Para blocos de código com preservação de formatação.</p>
+    <pre><code>
+function greet(name) {
+    if (name) {
+        console.log("Hello, " + name + "!");
+    } else {
+        console.log("Hello, stranger!");
+    }
+}
+    </code></pre>
+
+    <h3>&lt;samp&gt; - Saída de Exemplo</h3>
+    <p>Mostra um exemplo de saída do sistema.</p>
+    <p>Ao executar o comando, você verá: <samp>Hello World!</samp></p>
+
+    <h3>&lt;kbd&gt; - Entrada de Teclado</h3>
+    <p>Indica entradas feitas pelo usuário no teclado.</p>
+    <p>Pressione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar.</p>
+
+    <h3>&lt;var&gt; - Variável</h3>
+    <p>Representa variáveis em programação ou matemática.</p>
+    <p>A equação é E = m<var>c</var><sup>2</sup>.</p>
+
+    <h2>4. Importância do Uso Semântico</h2>
+    <ul>
+        <li><strong>Clareza e Contexto:</strong> Define claramente o tipo de conteúdo.</li>
+        <li><strong>Acessibilidade:</strong> Leitores de tela identificam melhor o conteúdo.</li>
+        <li><strong>SEO:</strong> Conteúdo mais bem interpretado pelos buscadores.</li>
+        <li><strong>Manutenibilidade:</strong> Código mais limpo e organizado.</li>
+    </ul>
+
+    <h2>Conclusão</h2>
+    <p>As tags de citação e código enriquecem o conteúdo HTML, tornando-o mais significativo e acessível.</p>
+</body>
+</html>
