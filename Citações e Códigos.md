@@ -90,3 +90,5 @@ function greet(name) {
 ## Conclusão
 
 As tags de citação e código vão além da aparência. Elas atribuem **significado** ao conteúdo, permitindo que humanos e máquinas compreendam melhor o que está sendo exibido.
+
+Retirei os emojis!!
