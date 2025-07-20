@@ -1,6 +1,10 @@
 
 # Anotações de Estudo: Citações e Códigos em HTML
 
+📅 Criado em: **20 de julho de 2025**  
+📚 Matéria:**Programação Web (HTML5 e CSS3)**  
+✍️ Autor: **Marco**
+
 ## 1. Introdução: Semântica para Referências e Exibição de Código
 
 Esta aula foca em tags HTML essenciais para dois tipos específicos de conteúdo: **citações de outras fontes** e **blocos de código de programação**.  
